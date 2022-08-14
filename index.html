@@ -1,0 +1,350 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <link href="styles/index.css" rel="stylesheet">
+        <link rel= "icon" href="images/logo.png">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="scripts/physiciansVisibility.js"></script>
+        <script src="scripts/verification.js"></script>
+        <title>Physio Vision Center</title>
+    </head>
+
+    <body>
+        
+        <nav class="navbar bg-dark text-white p-4 w-200">
+            <img src="images/auto-insurance.jpg" height="75" width="75">
+                <h3 id="a">Auto Insurance Services</h3>
+                <img src = "images/aviva.png" height = "60" width = "60" id = "aviva-insurance">
+                <img src = "images/belairdirectlogo-400x456.png" height = "75" width = "60" id = "belairdirectlogo-400x456">
+                <img src = "images/cooperators.png" height = "60" width = "60" id = "cooperators-insurance">
+                <img src = "images/economical-insurance.jpg" height = "60" width = "60" id = "economical-insurance">
+                <img src = "images/intact-insurance.jpg" height = "60" width = "60" id = "intact-insurance">
+                <img src = "images/rsa-group-insurance.jpg" height = "60" width = "60" id = "rsa-group-icon">
+                <img src = "images/sonnet-insurance.jpg" height = "60" width = "60" id = "sonnet-insurance">
+                <img src = "images/td-insurance.png" height = "60" width = "60" id = "td-insurance">
+                <img src = "images/the-personal.jpg" height = "60" width = "60" id = the-personal">
+                
+                
+                <a class="navbar-brand text-white nav-link" href="#services" id="c">Services</a>
+                <a class="navbar-brand text-white nav-link" href="#healthClinics" id="e">Health Clinics</a>
+                <a class="navbar-brand text-white nav-link" href="#payment" id="g">Payment Types</a>
+        </nav>
+
+        <div class="container">
+            
+            <br> </br>
+            <h1>Description</h1>
+            <br> </br>
+            <div class="row justify-content-around">
+                <div class="card" style="width: 75rem;" id="physician1">
+                    <div class="card-body">
+                      <h5 class="card-title">Services</h5>
+                      <p class="card-text">This site is about the services we offer about insurance, health clinics revolving around it, and the payment types the insurance will use. Service only uses auto insurance.</p>
+                    </div>
+                </div>
+            </div>
+            <br> </br>
+            <nav class="navbar bg-dark text-white p-3 my-3 ">
+                <img src = "images/Services.png" height = "60" width = "60">
+                <h1 id="services">Two Main Services </h1>
+            </nav>
+
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            <img src="images/Claims.jpg"  class = "serviceicon" height = "75" width="75">
+                            <t> Claims</t>
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">This service helps formulates claims about a car upon an accident</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            <img src="images/health.png"  class = "serviceicon" height = "75" width="75">
+                           <t> Health</t>  
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">This service informs you about any health procedures or risks that may revolve around your health when an accident occurs</div>
+                    </div>
+                </div>
+            </div>
+            
+                
+            <nav class="navbar bg-dark text-white p-1 my-3 ">
+                <img src = "images/health-clinics.jpg" height = "75" width = "60">
+                <h1 id="healthClinics">Health Clinics </h1>
+            </nav> <br>
+
+            <div class="btn-group-vertical w-100" role="group" aria-label="Basic radio toggle button group">
+              
+                <input type="radio" class="btn-check " name="btnradio" id="btnradio1" autocomplete="off" value = "Resiliency Clinic">
+                <label class="btn btn-outline-primary" for="btnradio1">1. Resiliency Clinic</label>
+               
+                <br>
+              
+                <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off" value = "Nepean Family Health Group">
+                <label class="btn btn-outline-primary" for="btnradio2">2. Nepean Family Health Group</label>
+
+                <br>
+              
+                <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off" value = "Rideau Valley Health Centre" >
+                <label class="btn btn-outline-primary" for="btnradio3">3. Rideau Valley Health Centre</label>
+
+                <br>
+
+                <input type="radio" class="btn-check" name="btnradio" id="btnradio4" autocomplete="off" value = "Strandherd Medical Centre">
+                <label class="btn btn-outline-primary" for="btnradio4">4. Strandherd Medical Centre</label>
+
+                <br>
+
+                <input type="radio" class="btn-check" name="btnradio" id="btnradio5" autocomplete="off" value = "Advanced Access Medical Clinics" >
+                <label class="btn btn-outline-primary" for="btnradio5">5. Advanced Access Medical Clinics</label>
+            </div>
+
+            <br>
+            <br>
+
+            <div id="physicians">
+
+                <nav class="navbar bg-dark text-white p-3 my-3" id="servicePhysician">
+                    <img src = "images/health-clinics.jpg" height = "60" width = "60">
+                    <h1 id = "p">Health Clinics</h1>
+                </nav> <br>
+
+                <div class="row justify-content-around">
+                    <div class="card" style="width: 15rem;" id="physician1">
+                        <img class="card-img-top" src="images/doctor-philipp.png" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Jotaro Kujo</h5>
+                          <p class="card-text">Jotaro has 10 years of physiotherapy experience and has a PhD in physiotherapy</p>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 15rem;" >
+                        <img class="card-img-top" height="180px" src="images/whitney.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Joseph Joestar</h5>
+                            <p class="card-text">Joseph has a masters in physiotherapy and went to the University of Ottawa for his undergrad and the University of Waterloo for his masters </p>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 15rem;" >
+                        <img class="card-img-top" height="160px" src="images/doc2.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Boa Hancock</h5>
+                            <p class="card-text">Boa has worked in this clinic for over 20 years and has helped well over 5000 patients!</p>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+
+            <br>
+
+            <div id="personalInformation">
+
+                <nav class="navbar bg-dark text-white p-3 my-3 ">
+                    <img src = "images/personalinfo.png" height = "60" width = "60">
+                    <h1 id = "p">Payment Types</h1>
+                    <h1 id="pe">Personal Data</h1>
+                </nav> <br>
+
+
+                <div id="fname">
+                    <label>Enter your First Name: </label>
+                    <div class="input-group mb-3 w-50" >
+                        <input type="text" maxLength="1000000000" class="form-control" placeholder="First Name" aria-label="First Name" aria-describedby="basic-addon1" data-bs-toggle="tooltip" data-bs-placement="top" title="We need your personal information in order to verify if it is actually you or not" id="firstname">
+                    </div>
+                </div>
+
+                <div id="lname">
+                    <label>Enter your Last Name: </label>
+                    <div class="input-group mb-3 w-50" >
+                        <input type="text" maxLength="1000000000" class="form-control" placeholder="Last Name" aria-label="Last Name" aria-describedby="basic-addon1" data-bs-toggle="tooltip" data-bs-placement="top" title="We need your personal information in order to verify if it is actually you or not" id ="lastname">
+                    </div>
+                </div>
+
+                <div id="email">
+                    <label>Enter your Telephone number: </label>
+                    <div class="input-group mb-3 w-50" >
+                        <input type="text" maxLength ="11" class="form-control" placeholder="xxx xxx xxx" aria-label="Phone Number" aria-describedby="basic-addon1" data-bs-toggle="tooltip" data-bs-placement="top" title="We need your personal information in order to verify if it is actually you or not" id ="phone">
+                    </div>
+                </div>
+
+                <div id="datetime"> 
+                    <label for="meeting-time">Choose a date and time for your appointment:</label> <br>
+                    <input type="datetime-local" id="meeting-time" name="meeting-time" value="2021-06-28T19:30" min="2021-06-28T00:00" max="2022-06-28T00:00"> 
+                </div>
+                
+            </div>
+            
+
+            <div id="payment">
+                <nav class="navbar bg-dark text-white p-3 my-3 ">
+                    <img src = "paymentMethods.png" height = "60" width = "60">
+                    <h1 id = "payment">Payment</h1>
+                </nav> <br>
+
+                <div class="my-3">
+                    <div class="form-check">
+                      <img src = "images/credit.png" height = "80" width = "80" class="paymenticon">
+                      <span id = "position">
+                        <input id="credit" name="paymentMethod" type="radio" class="form-check-input" required>
+                        <label class="form-check-label" for="credit">Credit card</label>
+                      </span>
+                    </div>
+                    <div class="form-check">
+                        <img src = "images/paypal.png" height = "80" width = "80" id = "paypalimage">
+                        <span id = "paypalposition">
+                            <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required>
+                            <label class="form-check-label" for="paypal">PayPal</label>
+                        </span>
+                    </div>
+                </div>
+
+                <br>
+                <br>
+                <br>
+
+                <div class="row gy-3">
+                    <div class="col-md-6">
+                      <label for="cc-name" class="form-label">Name on card</label>
+                      <input type="text" id="nameoncard" maxLength="1000000000" class="form-control" id="cc-name" placeholder="" data-bs-toggle="tooltip" data-bs-placement="top" title="Full name as displayed on card" required >
+                      <div class="invalid-feedback">
+                        Name on card is required
+                      </div>
+                    </div>
+        
+                    <div class="col-md-6">
+                      <label for="cc-number" class="form-label">Card number</label>
+                      <input maxLength ="19" type="text" class="form-control" id="cc-number" placeholder="XXXX XXXX XXXX XXXX" data-bs-toggle="tooltip" data-bs-placement="top" title="We need your credit card number and other personal information in case of a last minute cancellation and remember to put a space in between four numbers" required>
+                      <div class="invalid-feedback">
+                        Card number is required
+                      </div>
+                    </div>
+        
+                    <div class="col-md-3">
+                      <label for="cc-cvv" class="form-label">CVV</label>
+                      <input type="text" maxLength = "3" class="form-control" id="cc-cvv" placeholder="" data-bs-toggle="tooltip" data-bs-placement="top" title="This is three digit number located at the back of your credit card" required>
+                      <div class="invalid-feedback">
+                        Security code required
+                      </div>
+                    </div>
+                  </div>
+
+                  <br>
+
+                <button onclick = "creditcardCheck()" class="w-100 btn btn-primary btn-lg" type="submit"  id="checkout">Continue to checkout</button>
+    
+            </div>
+
+            <br>
+
+            
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Are you sure you want to submit?</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div>
+                                <button name="yes" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Yes</button>
+                                <button type="button" name="no" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <h4 id="request"></h4>
+
+              <br>
+              <div id="payment">
+                <nav class="navbar bg-dark text-white p-3 my-3 ">
+                    <img src = "images/payments.png" height = "60" width = "200">
+                    <h1 id = "payment">Payment Types</h1>
+                </nav> <br>
+
+                <div class="my-3">
+                    <div class="form-check">
+                      <img src = "images/credit.png" height = "80" width = "80" class="paymenticon">
+                      <span id = "position">
+                        <input id="credit" name="paymentMethod" type="radio" class="form-check-input" required>
+                        <label class="form-check-label" for="credit">Credit card</label>
+                      </span>
+                    </div>
+                    <div class="form-check">
+                        <img src = "images/paypal.png" height = "80" width = "80" id = "paypalimage">
+                        <span id = "paypalposition">
+                            <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required>
+                            <label class="form-check-label" for="paypal">PayPal</label>
+                        </span>
+                    </div>
+                </div>
+
+                <br>
+                <br>
+                <br>
+
+                <div class="row gy-3">
+                    <div class="col-md-6">
+                      <label for="cc-name" class="form-label">Name on card</label>
+                      <input type="text" id="nameoncard" maxLength="1000000000" class="form-control" id="cc-name" placeholder="" data-bs-toggle="tooltip" data-bs-placement="top" title="Full name as displayed on card" required >
+                      <div class="invalid-feedback">
+                        Name on card is required
+                      </div>
+                    </div>
+        
+                    <div class="col-md-6">
+                      <label for="cc-number" class="form-label">Card number</label>
+                      <input maxLength ="19" type="text" class="form-control" id="cc-number" placeholder="XXXX XXXX XXXX XXXX" data-bs-toggle="tooltip" data-bs-placement="top" title="We need your credit card number and other personal information in case of a last minute cancellation and remember to put a space in between four numbers" required>
+                      <div class="invalid-feedback">
+                        Card number is required
+                      </div>
+                    </div>
+        
+                    <div class="col-md-3">
+                      <label for="cc-cvv" class="form-label">CVV</label>
+                      <input type="text" maxLength = "3" class="form-control" id="cc-cvv" placeholder="" data-bs-toggle="tooltip" data-bs-placement="top" title="This is three digit number located at the back of your credit card" required>
+                      <div class="invalid-feedback">
+                        Security code required
+                      </div>
+                    </div>
+                  </div>
+
+                  <br>
+
+                <button onclick = "creditcardCheck()" class="w-100 btn btn-primary btn-lg" type="submit"  id="checkout">Continue to checkout</button>
+    
+            </div>
+
+            <br>
+              <footer class="footer mt-auto py-3 bg-dark">
+                <div class="container"> 
+                    <span class="text-white" id = "b">Copyright 2022</span>
+                </div>
+              </footer>
+
+              <br>
+
+        </div>
+
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script> 
+    </body>
+
+
+</html>
