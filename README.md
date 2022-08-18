@@ -7,8 +7,8 @@ This website contains services offered, health clinics, and payment methods asso
 
 ## User Interface:
 
-![image](https://user-images.githubusercontent.com/37605427/185512462-30b2d551-11ce-41b5-a05d-f00e5a7b2f19.png)
+![image](https://user-images.githubusercontent.com/37605427/185513190-049c6ec0-6407-4a9a-995e-bcb34d45d206.png)
 
-![image](https://user-images.githubusercontent.com/37605427/185512487-6dab2141-7e9c-44fb-aeb8-cb16541ad314.png)
+![image](https://user-images.githubusercontent.com/37605427/185513207-77ad7648-8952-4f82-a6fe-9a991bae06a9.png)
 
-![image](https://user-images.githubusercontent.com/37605427/185512500-2bd1b5c9-f892-4e77-b48a-9a875b5449ac.png)
+![image](https://user-images.githubusercontent.com/37605427/185513217-460a87ff-2513-4a00-890b-ff15e270eb65.png)
