@@ -1,0 +1,8 @@
+{
+    "name": "v-app",
+    "version": "1.0.0",
+    "scripts": {
+      "start": "index.html"
+    }
+  }
+  
